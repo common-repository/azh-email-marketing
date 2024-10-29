@@ -1,0 +1,300 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-25 07:49+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: email_campaigns.php:13
+msgid "Every one minute"
+msgstr ""
+
+#: email_campaigns.php:23 email_campaigns.php:24
+msgid "Email campaign"
+msgstr ""
+
+#: email_campaigns.php:25
+msgid "Add Email campaign"
+msgstr ""
+
+#: email_campaigns.php:26
+msgid "Add New Email campaign"
+msgstr ""
+
+#: email_campaigns.php:27
+msgid "Edit Email campaign"
+msgstr ""
+
+#: email_campaigns.php:28
+msgid "New Email campaign"
+msgstr ""
+
+#: email_campaigns.php:29
+msgid "View Email campaign"
+msgstr ""
+
+#: email_campaigns.php:30
+msgid "Search Email campaigns"
+msgstr ""
+
+#: email_campaigns.php:31
+msgid "No Email campaign found"
+msgstr ""
+
+#: email_campaigns.php:32
+msgid "No Email campaign found in Trash"
+msgstr ""
+
+#: email_campaigns.php:33
+msgid "Parent Email campaign:"
+msgstr ""
+
+#: email_campaigns.php:34
+msgid "Email campaigns"
+msgstr ""
+
+#: email_campaigns.php:211 email_campaigns.php:232
+msgid "Unsubscribe"
+msgstr ""
+
+#: email_campaigns.php:448
+msgid "Status"
+msgstr ""
+
+#: email_campaigns.php:449 email_campaigns.php:647
+msgid "Receivers"
+msgstr ""
+
+#: email_campaigns.php:450
+msgid "Sent"
+msgstr ""
+
+#: email_campaigns.php:451
+msgid "Open"
+msgstr ""
+
+#: email_campaigns.php:452
+msgid "Clicks"
+msgstr ""
+
+#: email_campaigns.php:453
+msgid "Unsubscribes"
+msgstr ""
+
+#: email_campaigns.php:464
+msgid "Draft"
+msgstr ""
+
+#: email_campaigns.php:465 email_campaigns.php:528
+msgid "Running"
+msgstr ""
+
+#: email_campaigns.php:466 email_campaigns.php:529
+msgid "Paused"
+msgstr ""
+
+#: email_campaigns.php:467 email_campaigns.php:530
+msgid "Finished"
+msgstr ""
+
+#: email_campaigns.php:468
+msgid "Pause"
+msgstr ""
+
+#: email_campaigns.php:469
+msgid "Run"
+msgstr ""
+
+#: email_campaigns.php:500
+msgid "Campaign settings"
+msgstr ""
+
+#: email_campaigns.php:558
+msgid "From email"
+msgstr ""
+
+#: email_campaigns.php:566
+msgid "From name"
+msgstr ""
+
+#: email_campaigns.php:574
+msgid "Reply to"
+msgstr ""
+
+#: email_campaigns.php:582 azh_email_marketing.php:452
+#: azh_email_marketing.php:453 azh_email_marketing.php:532
+msgid "Email template"
+msgstr ""
+
+#: email_campaigns.php:610
+#, php-format
+msgid ""
+"You do not have email templates. Please <a href=\"%s\">create</a> at least "
+"one."
+msgstr ""
+
+#: email_campaigns.php:618
+msgid "Unsubscribe page"
+msgstr ""
+
+#: email_campaigns.php:642
+msgid "Use {unsubscribe} in email template for unsubscription URL"
+msgstr ""
+
+#: email_campaigns.php:652
+msgid "Submitters of form:"
+msgstr ""
+
+#: email_campaigns.php:666
+msgid "Who left their email in the field:"
+msgstr ""
+
+#: email_campaigns.php:684
+msgid "Available data for this receivers to use in email template:"
+msgstr ""
+
+#: email_campaigns.php:688
+#, php-format
+msgid ""
+"You do not have forms in your pages and widgets. Please <a href=\"%s\">"
+"create</a> at least one."
+msgstr ""
+
+#: email_campaigns.php:694
+msgid "Total receivers"
+msgstr ""
+
+#: email_campaigns.php:708
+msgid "Test email was sent to: "
+msgstr ""
+
+#: email_campaigns.php:711
+msgid "Sending email error: "
+msgstr ""
+
+#: email_campaigns.php:721
+msgid "Send test email to: "
+msgstr ""
+
+#: azh_email_marketing.php:36
+msgid ""
+"please install <a href=\"https://wordpress.org/plugins/page-builder-by-"
+"azexo/\">Page builder by AZEXO</a> plugin."
+msgstr ""
+
+#: azh_email_marketing.php:36 azh_email_marketing.php:40
+msgid "Dismiss this notice."
+msgstr ""
+
+#: azh_email_marketing.php:40
+msgid ""
+"please install <a href=\"https://wordpress.org/plugins/cost-calculator-by-"
+"azexo/\">Form builder by AZEXO</a> plugin."
+msgstr ""
+
+#: azh_email_marketing.php:47 azh_email_marketing.php:55
+msgid "AZEXO Email Templates"
+msgstr ""
+
+#. Section ID
+#: azh_email_marketing.php:47 azh_email_marketing.php:77
+msgid "Email Templates"
+msgstr ""
+
+#: azh_email_marketing.php:62
+msgid "Save Settings"
+msgstr ""
+
+#. Field ID
+#: azh_email_marketing.php:83
+msgid ""
+"ZIP file of email template in <a href=\"https://themeforest."
+"net/tags/stampready\" target=\"_blank\">StampReady</a> format"
+msgstr ""
+
+#: azh_email_marketing.php:96
+msgid "Click to start upload"
+msgstr ""
+
+#: azh_email_marketing.php:102
+msgid ""
+"Template will be uploaded right after choose a template zip-file.<br> ZIP-"
+"filename must contain single folder with index.html file.<br> ZIP-file and "
+"folder must have same name - <b>template name</b>."
+msgstr ""
+
+#: azh_email_marketing.php:157
+msgid "Done"
+msgstr ""
+
+#: azh_email_marketing.php:454
+msgid "Add Email template"
+msgstr ""
+
+#: azh_email_marketing.php:455
+msgid "Add New Email template"
+msgstr ""
+
+#: azh_email_marketing.php:456
+msgid "Edit Email template"
+msgstr ""
+
+#: azh_email_marketing.php:457
+msgid "New Email template"
+msgstr ""
+
+#: azh_email_marketing.php:458
+msgid "View Email template"
+msgstr ""
+
+#: azh_email_marketing.php:459
+msgid "Search Email templates"
+msgstr ""
+
+#: azh_email_marketing.php:460
+msgid "No Email template found"
+msgstr ""
+
+#: azh_email_marketing.php:461
+msgid "No Email template found in Trash"
+msgstr ""
+
+#: azh_email_marketing.php:462
+msgid "Parent Email template:"
+msgstr ""
+
+#: azh_email_marketing.php:463
+msgid "Email templates"
+msgstr ""
+
+#: azh_email_marketing.php:555
+#, php-format
+msgid ""
+"For email template creation you need <a href=\"%s\">upload</a> base email "
+"template."
+msgstr ""
+
+#. Name of the plugin
+msgid "Email Marketing"
+msgstr ""
+
+#. Description of the plugin
+msgid "Support of Email Templates for AZEXO Builder"
+msgstr ""
+
+#. Author of the plugin
+msgid "azexo"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://azexo.com"
+msgstr ""

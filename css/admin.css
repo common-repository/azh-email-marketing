@@ -1,0 +1,87 @@
+#aze-email-template-upload {
+    position: fixed;
+    top:-1000px;
+}
+
+.aze-progress {
+    border: 1px solid grey;
+    display: inline-block;
+    height: 28px;
+    width: 150px;
+    position: relative;
+    vertical-align: middle;
+}
+
+.aze-status {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 0;
+    background-color: green;
+}
+
+.aze-templates {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aze-templates .aze-template {
+    width: calc(20% - 14px);
+    padding: 5px;
+    background-color: whitesmoke;
+    margin: 2px;
+    text-decoration: none;
+    text-align: center;
+}
+.aze-templates .aze-template img {
+    max-width: 100%;
+}
+.aze-templates .aze-template.aze-active {
+    background-color: blueviolet;
+}
+
+.aze-templates .aze-template:hover {
+    background-color: black;
+}
+
+.aze-templates .aze-template .aze-name {    
+    font-size: 20px;
+    padding: 10px;
+}
+
+.aze-templates .aze-template:hover .aze-name, .aze-templates .aze-template.aze-active .aze-name {
+    color: white;
+}
+
+body.post-type-aze_email_template:not(.aze-template) #postdivrich,
+body.post-type-aze_email_template:not(.aze-template) #azh-switch-mode,
+body.post-type-aze_email_template #normal-sortables,
+body.post-type-aze_email_template:not(.aze-template) #edit-slug-box,
+body.post-type-aze_email_template a.azh-switcher {
+    display: none;
+}
+
+body.post-type-aze_email_template:not(.aze-template) #titlediv {
+    margin-bottom: 0;
+}
+
+[data-status="paused"] .aze-pause,
+[data-status="paused"] .aze-running,
+[data-status="paused"] .aze-draft,
+[data-status="paused"] .aze-finished,
+[data-status="running"] .aze-run,
+[data-status="running"] .aze-paused,
+[data-status="running"] .aze-draft,
+[data-status="running"] .aze-finished,
+[data-status="finished"] .aze-pause,
+[data-status="finished"] .aze-paused,
+[data-status="finished"] .aze-draft,
+[data-status="finished"] .aze-running,
+[data-status=""] .aze-pause,
+[data-status=""] .aze-running,
+[data-status=""] .aze-paused,
+[data-status=""] .aze-finished
+{
+    display: none;
+}
